@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/pad_20dp"
+    android:paddingLeft="@dimen/pad_15dp"
+    android:paddingRight="@dimen/pad_15dp"
+    android:paddingTop="@dimen/pad_20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@mipmap/splashback">
+       <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="240dp"
+            android:layout_height="120dp"
+            android:src="@drawable/login"
+            android:layout_marginBottom="10dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/user"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:drawableLeft="@drawable/ic_username"
+            android:hint="Twitter Username"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/pwd"
+            style="@style/editext_graybg"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginBottom="@dimen/pad_20dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_pwd"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+        </EditText>
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/btnLogin"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btnn" />
+
+        </LinearLayout>
+    </LinearLayout>

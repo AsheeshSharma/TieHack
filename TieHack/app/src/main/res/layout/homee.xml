@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="7dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/content_frame"
+        android:background="@mipmap/splashback">
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:background="@mipmap/one"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/ib2">
+        </ImageButton>
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:background="@mipmap/two"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ib3"
+            android:layout_marginTop="10dp">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:background="@mipmap/thr"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/ib1"
+            android:layout_marginTop="10dp">
+        </ImageButton>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start" >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="#ffffff"
+            android:scrollbars="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </RelativeLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

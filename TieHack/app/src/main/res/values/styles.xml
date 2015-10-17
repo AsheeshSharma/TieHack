@@ -1,0 +1,30 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="editext_graybg" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/bluebgedittext</item>
+        <item name="android:drawablePadding">@dimen/pad_10dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:paddingLeft">@dimen/pad_10dp</item>
+        <item name="android:paddingRight">@dimen/pad_10dp</item>
+        <item name="android:textSize">@dimen/txt_16sp</item>
+    </style>
+    <style name="btn_white_large" parent="@style/btn">
+        <item name="android:background">@drawable/btnn</item>
+        <item name="android:textColor">#686161</item>
+        <item name="android:textSize">@dimen/txt_18sp</item>
+    </style>
+
+    <style name="btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:minHeight">1dp</item>
+        <item name="android:minWidth">1dp</item>
+    </style>
+
+</resources>

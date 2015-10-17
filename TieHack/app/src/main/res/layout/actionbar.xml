@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ColorPrimary"
+    android:elevation="4dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#Review"
+        android:layout_gravity="left"
+        android:id="@+id/toolbar_title"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:textIsSelectable="false" />
+</android.support.v7.widget.Toolbar>
